@@ -9,7 +9,7 @@ jobs:
     runs-on:ubuntu-latest
     steps:
       -name: echoing some information
-      -run: echo "hello world"
+      -run:  echo "hello world"
       -name: Checkout
        uses: actions/checkout@3.5.3
-      -run: python ff.py
+      -run:  python ff.py
