@@ -1,0 +1,11 @@
+name: first-workflow
+run-name:instance
+on:[push]
+
+
+
+jobs:
+  say-hello:
+    runs-on:ubuntu
+    steps:
+      -run: echo "hello world"
